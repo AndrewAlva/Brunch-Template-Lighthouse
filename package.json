@@ -1,9 +1,9 @@
 {
-	"name": "Mbrt-Brunch-Boilerplate",
-	"description": "First boilerplate made from scratch by Mandelbrot Studio.",
-	"private": true,
-	"author": "Mbrt Studio",
-	"version": "0.0.1",
+	"name": "Brunch-Template-Lighthouse",
+	"description": "Frontend boilerplate for small projects aiming to be shipped fast but still following best practices for performance and cool experiences which includes animation and experimental interactions.",
+	"private": false,
+	"author": "Andrew Alva",
+	"version": "0.1.0",
 	"repository": "",
 	"scripts": {
 		"start": "brunch watch --server",
@@ -11,9 +11,9 @@
 	},
 	"devDependencies": {
 		"auto-reload-brunch": "^2.7.1",
-		"brunch": "^2.10.17",
+		"brunch": "^3.0.0",
 		"jade-brunch": "^2.8.0",
-		"sass-brunch": "^2.10.8",
-		"uglify-js-brunch": "2.10"
+		"sass-brunch": "^3.0.0",
+		"uglify-js-brunch": "^2.10.0"
 	}
 }
