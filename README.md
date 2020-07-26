@@ -3,36 +3,36 @@ This is a quickstart for small frontend projects aiming to be shipped fast but s
 
 Currently more focused on single pages, but still useful for multiple pages websites.
 
-## Google Lighthouse optimizations included
-### Defer scripts
+## Google Lighthouse optimizations included:
+### 1, Defer scripts
 * Inline "critical" CSS & JS to avoid render blocking
 * Defers load of other assets and scripts
 
 
-### Lazy load images ([lazysizes.js by Alexander Farkas](https://github.com/aFarkas/lazysizes))
+### 2. Lazy load images ([lazysizes.js by Alexander Farkas](https://github.com/aFarkas/lazysizes))
 * Includes standard responsive image support (picture and srcset)
 * Responsive image support
 * SEO improved: lazysizes does not hide images/assets from Google.
 * For more info about this library, check the GitHub repo mentioned above
 
 
-### PWA setup files and assets
+### 3. PWA setup files and assets
 * Service Worker
 * Manifest
 * Icons examples
 
 
 ## Frontend tools and features
-### Single production minified CSS and JS files.
+### I. Single production minified CSS and JS files
 
 
-### Modular approach
+### II. Modular approach
 * Using jade preprocessor for HTML and
-* SCSS for CSS files
-* Brunch will take care of compile all js files placed in `js` folder into a single file and uglify it.
+* SCSS for CSS files.
+* Brunch will take care of compiling all js files placed in `js` folder into a single file and uglify it.
 
 
-### 2 Grid systems based on SCSS vars and formulas/functions to set and calculate:
+### III. Grid systems (2) based on SCSS vars and formulas/functions to set and calculate:
 * Flexible features:
 	* Columns (as many as you want)
 	* Gutters
@@ -54,32 +54,32 @@ Currently more focused on single pages, but still useful for multiple pages webs
 	* This interaction requires a mobile detection library like [Mobile-Detect by Şerban Ghiţă](https://github.com/serbanghita/Mobile-Detect) or [mobile-detect.js by Heinrich Goebl](https://github.com/hgoebl/mobile-detect.js)
 
 
-### Cascade animations SCSS system (`cascade-animations.scss`)
+### IV. Cascade animations SCSS system (`cascade-animations.scss`)
 * Delay system based on CSS attributes
 * Separated on 2 possible scenarios: Mobile and Desktop
 * Media query breakpoint is variable for you to decide when delays should change
 
 
-### JS listener for elements inside viewport (`inview.js`)
+### V. JS listener for elements inside viewport (`inview.js`)
 
 
-### Complete list of metatags for sharing crawlers
+### VI. Complete list of metatags for sharing crawlers
 * Open graph tags (og:--)
 * Twitter tags
 * Favicon tags
 * Google Structured Data Tags
 
 
-### Favicon examples
+### VII. Favicon examples
 * Full list of favicon sizes
 * sitemanifest setup file
 
 
-### Typefaces hierarchy (`typefaces.scss`)
+### VIII. Typefaces hierarchy (`typefaces.scss`)
 Global hierarchy to facilitate texts styling and follow DRY principle.
 
 
-### SCSS mixins
+### IX. SCSS mixins
 * -webkit- prefixes included in most common properties to expand coverage.
 * Short writing for:
 	* Flexbox
@@ -88,7 +88,7 @@ Global hierarchy to facilitate texts styling and follow DRY principle.
 	* Transitions and Delays
 
 
-### Throttle & Debounce JS optimizers from [Lodash](https://lodash.com/)
+### X. Throttle & Debounce JS optimizers from [Lodash](https://lodash.com/)
 
 
 ## Basic server configuration (only for Apache servers)
@@ -109,12 +109,13 @@ Global hierarchy to facilitate texts styling and follow DRY principle.
 
 
 * Compatible libraries already tested* [Coming Soon]
-These libraries have been used in combination with this boilerplate, but they are not included in the core, you must integrate them by yourself downloading the files into your repo or using a CDN, as you prefer.
 
-	* [locomotive-scroll by Locomotive](https://locomotivemtl.github.io/locomotive-scroll/)
-	* [three.js by Ricardo Cabello (aka Mr.doob)](https://threejs.org/)
-	* [blotter.js by Bradley Griffith](https://blotter.js.org/)
-	* [p5.js started by Lauren McCarthy](https://p5js.org/)
+	* These libraries have been used in combination with this boilerplate, but they are not included in the core, you must integrate them by yourself downloading the files into your repo or using a CDN, as you prefer.
+
+	* [locomotive-scroll](https://locomotivemtl.github.io/locomotive-scroll/) by Locomotive
+	* [three.js](https://threejs.org/) by Ricardo Cabello (aka Mr.doob)
+	* [blotter.js](https://blotter.js.org/) by Bradley Griffith
+	* [p5.js](https://p5js.org/) started by Lauren McCarthy
 
 
 * Overall optimization with [Juan Fuentes](https://codepen.io/JuanFuentes/).
@@ -123,10 +124,10 @@ These libraries have been used in combination with this boilerplate, but they ar
 
 
 
-# Built on npm and Brunch
+# How to use it: First Steps
 
-## Development Environment
-Hi there, this project is built by npm and brunch. It's coded oriented to use "modules" and "objects" of HTML and CSS with Jade and SCSS.
+## Development Environment (Built on npm and Brunch)
+Hi there, to use this boilerplate you must install npm and brunch in your computer. The coded is oriented to use "modules" and "objects" of HTML and CSS with Jade and SCSS. The JS syntax you will find in default files is ES5 (ECMAScript5).
 
 ### Getting to know Brunch
 
