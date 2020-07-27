@@ -118,7 +118,9 @@ Global hierarchy to facilitate texts styling and follow DRY principle.
 	* [p5.js](https://p5js.org/) started by Lauren McCarthy
 
 
-* Overall optimization with [Juan Fuentes](https://codepen.io/JuanFuentes/).
+* Overall optimization with:
+	* [Juan Fuentes](https://codepen.io/JuanFuentes/).
+	* [Ana Barbosa](https://codepen.io/anitabarbosa17).
 
 
 
